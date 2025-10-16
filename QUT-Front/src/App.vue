@@ -1,14 +1,15 @@
 <script setup lang="ts">
 import BasicLayout from './layouts/BasicLayout.vue'
-import {getBeatboxInfo} from '@/api/homeController'
-getBeatboxInfo().then((res)=>{
-  console.log(res)
-})
+
+import { useLoginUserStore } from '@/stores/loginUser.ts'
+
+const loginUserStore = useLoginUserStore()
+loginUserStore.fetchLoginUser()
+
 </script>
 
 <template>
   <BasicLayout />
-
 </template>
 
 <style>

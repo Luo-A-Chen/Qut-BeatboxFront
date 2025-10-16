@@ -1,25 +1,26 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
-  <div class="home-page">
-    <h1>首页</h1>
-    <p>欢迎来到我们的网站！</p>
+  <div class="admin-user-manage-page">
+    <h1>管理员用户管理</h1>
+    <p>管理员用户管理页面</p>
   </div>
 </template>
 
 <style scoped>
-.home-page {
+.admin-user-manage-page {
   text-align: center;
   padding: 20px;
 }
 
-.home-page h1 {
+.admin-user-manage-page h1 {
   color: #1890ff;
   margin-bottom: 20px;
 }
 
-.home-page p {
+.admin-user-manage-page p {
   font-size: 16px;
   color: #666;
 }
