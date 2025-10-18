@@ -16,7 +16,7 @@ const router = createRouter({
     {
       path: '/about',
       name: '关于',
-      component: AboutPage.vue,
+      component: AboutPage,
     },
     {
       path: '/user/login',
@@ -26,12 +26,12 @@ const router = createRouter({
     {
       path: '/user/register',
       name: '用户注册',
-      component:UserRegisterPage.vue,
+      component: UserRegisterPage,
     },
     {
       path: '/admin/userManage',
       name: '用户管理',
-      component:UserManagePage.vue,
+      component: UserManagePage,
     },
 
   ],
